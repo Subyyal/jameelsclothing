@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/index.py" },
+    { "source": "/admin", "destination": "/api/index.py" },
+    { "source": "/product", "destination": "/api/index.py" },
+    { "source": "/(.*)", "destination": "/static/$1" }
+  ]
+}
